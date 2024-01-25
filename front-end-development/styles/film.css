@@ -1,0 +1,104 @@
+
+:root {
+	--color-text: black;
+	--color-background: white;
+	--hover-main: white;
+	--color-lijn: gray;
+}
+
+
+h1 {
+	display: none;
+}
+
+body {
+    background-color: var(--color-text);
+    max-width: 943vw;
+}
+
+h2 {
+    font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--color-background);
+    font-size: 13vw;
+	font-weight: normal;
+}
+
+h3 {
+	color: var(--color-background);
+	font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h4 {
+	color: var(--color-background);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 1.2em;
+    color: var(--color-background);
+}
+
+
+
+
+/* section 1 */
+
+main section:nth-of-type(1) {
+	padding: 1em;
+	padding-top: 0;
+}
+
+main section:nth-of-type(1) p{
+	padding: 1em;
+	color: var(--color-lijn);
+}
+
+main section:nth-of-type(1) p:nth-of-type(2) {
+	padding: 1em;
+	color: var(--hover-main);
+}
+
+main section:nth-of-type(1) img:nth-of-type(1){
+	width: 90vw;
+}
+
+main section:nth-of-type(1) h2 {
+	border-bottom: solid 1px var(--color-background);
+	padding-bottom: 0.1em;
+	
+}
+
+
+/*  MAIN section 2 - FILMS */
+main section:nth-of-type(2) li{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+main section:nth-of-type(2) a{
+	text-decoration: none;
+	padding: 2em;
+}
+
+
+main section:nth-of-type(2) h3{
+	border-bottom: solid var(--hover-main);
+	padding-bottom: 0.5em;
+	font-size: 2em;
+}
+
+main section:nth-of-type(2) ul li p:nth-of-type(1){
+	text-transform: uppercase;
+	padding-top: 1em;
+	padding: 0;
+}
+
+
+
+
+
+
